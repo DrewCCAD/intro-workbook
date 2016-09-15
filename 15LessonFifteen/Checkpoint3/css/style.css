@@ -1,6 +1,11 @@
+/*//// global //// */
+
 html {
     font-size: 10px;
 }
+
+
+/*//// navigation bar ////*/
 
 .navbar {
     border: 1px solid white;
@@ -20,20 +25,66 @@ html {
     font-weight: bold;
     color: black;
 }
+
+
 /*//// end nav ////*/
 
-#hero {
+.parallax-hero {
+    /*//// hero vineyard ////   */
     background-image: url("../img/wine-bg.jpg");
+    min-height: 768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+   /* background-blend-mode: multiply;
+    background-color: #aaa7a7e;*/
+}
+
+.logo {
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: multiply;
-    background-color: #aaa7a7e;
+    width: 100%;
+    height: 550px;
+    opacity: .80;
 }
-.logo {
-	background-image: url("../img/logo.png");
-	width: 100%;
-	height: 550px;
-	}
+
+.hero-text {
+    color: white;
+    opacity: .80;
+}
+
+
+/*//// end hero ////*/
+
+.bar-size {
+    background-image: url("../img/wine16.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+#about {
+    width: 65%;
+}
+
+/*#about h5 {}
+
+#about h4 {}
+
+#about p {}
+*/
+.sig {
+    max-height: 80px;
+}
+
+.parallax-2 {
+    /*//// picking grapes ////*/
+    background-image: url("../img/wine13.jpg");
+    min-height: 768px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
