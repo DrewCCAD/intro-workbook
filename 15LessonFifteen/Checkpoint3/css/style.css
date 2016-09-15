@@ -1,90 +1,164 @@
-/*//// global //// */
-
-html {
-    font-size: 10px;
-}
-
-
-/*//// navigation bar ////*/
-
-.navbar {
-    border: 1px solid white;
-    background: rgba(255, 255, 255, 0.8);
-}
-
-.l_border {
-    border-left: 1px solid white;
-}
-
-.nav a {
-    color: #949494;
-}
-
-.navbar-brand {
-    font-size: 2em;
-    font-weight: bold;
-    color: black;
-}
-
-
-/*//// end nav ////*/
-
-.parallax-hero {
-    /*//// hero vineyard ////   */
-    background-image: url("../img/wine-bg.jpg");
-    min-height: 768px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   /* background-blend-mode: multiply;
-    background-color: #aaa7a7e;*/
-}
-
-.logo {
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 550px;
-    opacity: .80;
-}
-
-.hero-text {
-    color: white;
-    opacity: .80;
-}
-
-
-/*//// end hero ////*/
-
-.bar-size {
-    background-image: url("../img/wine16.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-}
-
-#about {
-    width: 65%;
-}
-
-/*#about h5 {}
-
-#about h4 {}
-
-#about p {}
-*/
-.sig {
-    max-height: 80px;
-}
-
-.parallax-2 {
-    /*//// picking grapes ////*/
-    background-image: url("../img/wine13.jpg");
-    min-height: 768px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+            /*//// global //// */
+            
+            html {
+                font-size: 10px;
+            }
+            /*//// navigation bar ////*/
+            
+            .navbar {
+                border: 1px solid white;
+                background: rgba(255, 255, 255, 0.8);
+            }
+            
+            .l_border {
+                border-left: 1px solid white;
+            }
+            
+            .nav a {
+                color: #949494;
+            }
+            
+            .navbar-brand {
+                font-size: 2em;
+                font-weight: bold;
+                color: black;
+            }
+            /*//// end nav ////*/
+            
+            .parallax-hero {
+                /*//// hero vineyard ////   */
+                background-image: url("../img/wine-bg.jpg");
+                min-height: 768px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-blend-mode: multiply;
+                background-color: #aaa7a7e;
+            }
+            
+            .logo {
+                height: 450px;
+                opacity: .80;
+            }
+            
+            .hero-box {
+                height: 700px;
+                width: 100%;
+                margin-top: 2%;
+                margin-left: 2%;
+            }
+            
+            .hero-text {
+                color: white;
+                font-family: 'Georgia';
+                opacity: .80;
+            }
+            /*//// end hero ////*/
+            
+            .bar-size {
+                background-image: url("../img/wine16.jpg");
+                background-size: cover;
+                background-position: center;
+                height: 600px;
+            }
+            
+            .about {
+                height: 400px;
+                width: 60%;
+                margin-top: 18%;
+                margin-left: 18%;
+            }
+            
+            .about h5 {
+                font-style: italic;
+                font-size: 1em;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #949494;
+                padding-bottom: 5%;
+            }
+            
+            .about h4 {
+                font-family: 'Georgia';
+                font-size: 1.6em;
+                line-height: 1.6em;
+                padding-bottom: 5%;
+            }
+            
+            .about p {
+                line-height: 2.8em;
+                color: #6C6C6C;
+                padding-bottom: 5%;
+            }
+            
+            .sig {
+                max-height: 80px;
+            }
+            /*//// end about ////*/
+            
+            .parallax-2 {
+                /*//// picking grapes ////*/
+                background-image: url("../img/wine13.jpg");
+                min-height: 500px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            /*//// end quote ////*/
+            
+            .shop-space {
+                padding-left: 8%;
+            }
+            
+            .bottle {
+                height: 400px;
+            }
+            
+            .shop-text {
+                font-family: 'Georgia';
+                font-style: italic;
+            }
+            
+            .shop-text a {
+                background-color: #61B329;
+                color: white;
+                font-size: 16px;
+                padding: 6px 8px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin-top: 3%;
+                margin-bottom: 8%;
+            }
+            /*////// media qurry ////*/
+            
+            @media (max-width: 768px) {
+                /*//// about section ////*/
+                .about {
+                    height: 500px;
+                    margin-top: 10%;
+                }
+                .about h5 {
+                    padding-bottom: 2%;
+                }
+                .about h4 {
+                    line-height: 1.6em;
+                    padding-bottom: 2%;
+                }
+                .about p {
+                    line-height: 1.6em;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                /*//// hero logo ////*/
+                .logo {
+                    height: 300px;
+                }
+                .hero-box {
+                    margin-top: 40%;
+                    padding-right: 10%;
+                }
+            }
