@@ -8,7 +8,7 @@
     <title>Checkpoint 3</title>
     <!-- //// google fonts here //// -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <!--   <link rel="stylesheet" href="css/css-reset.css"> -->
+    <script src="https://use.fontawesome.com/b88012fac3.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -26,9 +26,9 @@
                     <ul class="nav navbar-nav pull-right">
                         <li><a href="#">HOME <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
                         <li><a href="#about">ABOUT <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
-                        <li><a href="#">AWARDS <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
+                        <li><a href="#awards">AWARDS <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
                         <li><a href="#shop">SHOP <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
-                        <li><a href="#">CONTACT <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
+                        <li><a href="#contact">CONTACT <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
                         <li><a href="#" class="l_border"><span class="glyphicon glyphicon-search"></span></a></li>
                         <li><a href="#" class="l_border"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
                         <li><a href="#" class="l_border">ENG <span class="glyphicon glyphicon glyphicon-menu-down"></span></a></li>
@@ -39,13 +39,18 @@
     </header>
     <!-- //// end header //// -->
     <section class="parallax-hero" id="hero">
-        <div class="row text-center col-sm-12">
-            <div class="hero-box">
-                <img alt="logo" class="logo" src="img/logo.png" />
-                <h3 class="hero-text">
-                   &ldquo;Without doubt, one of the most consistently
-                  <br>high-quality wineries in the Barossa region&rdquo;
-                  </h3>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="hero-box">
+                    <img alt="logo" class="logo" src="img/logo.png" />
+                    <h3>&ldquo;Without doubt, one of the most consistently
+                        <br>high-quality wineries in the Barossa region&rdquo;
+                    </h3>
+                    <h4>David Halladay - Respected Wino</h4>
+                    <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-vimeo fa-lg" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
     </section>
@@ -68,7 +73,7 @@
     <!-- //// end of row //// -->
     <section class="row parallax-2">
         <div>
-            <div class="container">
+            <div class="container-">
                 <div class="col-sm-8 text-center quote-text">
                     <h3>&ldquo;We've been producing fine wine for over 65 years,<br> I think we know what we're talking about&rdquo;</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -77,37 +82,125 @@
         </div>
     </section>
     <!-- //// end row //// -->
-    <section class="row container" id="shop">
-        <div class="col-sm-4 text-center shop-space">
-            <img alt="wine bottle" src="img/wine3.jpg" class="bottle" />
-            <hr>
-            <div class="shop-text">
-                <h4>Foundry Shiraz</h4>
-                <h5>&ldquo;Aged five years in solid, French Oak barrels sports notes of pepper and blackberry&rdquo;</h5>
-                <a class="visit-shop" href="#">Visit Shop</a>
-            </div>
-        </div>
-        <div class="col-sm-4 text-center shop-space">
-            <img alt="wine bottle" src="img/wine6.jpg" class="bottle" />
-            <hr>
-            <div class="shop-text">
-                <h4>Foundry Chardonnay</h4>
-                <h5>&ldquo;A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish&rdquo;</h5>
-                <a class="visit-shop" href="#">Visit Shop</a>
-            </div>
-        </div>
-        <div class="col-sm-4 text-center shop-space">
-            <img alt="wine bottle" src="img/wine7.jpg" class="bottle" />
-            <hr>
-            <div class="shop-text">
-                <h4>Foundry Cabernet</h4>
-                <h5>&ldquo;Generous sweet blackcurrant and mulberry character with soft, velvety tannins&rdquo;</h5>
-                <a class="visit-shop" href="#">Visit Shop</a>
+    <section class="" id="shop">
+        <div class="row">
+            <div class="container-fluid craft">
+                <div class="col-sm-4 col-md-4 text-center shop-space">
+                    <img alt="wine bottle" src="img/wine3.jpg" class="bottle" />
+                    <hr>
+                    <div class="shop-text">
+                        <h4>Foundry Shiraz</h4>
+                        <h5>&ldquo;Aged five years in solid, French Oak barrels sports notes of pepper and blackberry&rdquo;</h5>
+                    </div>
+                    <div class="click">
+                        <a class="visit-shop" href="#">Visit Shop</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 text-center shop-space">
+                    <img alt="wine bottle" src="img/wine6.jpg" class="bottle" />
+                    <hr>
+                    <div class="shop-text">
+                        <h4>Foundry Chardonnay</h4>
+                        <h5>&ldquo;A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish&rdquo;</h5>
+                    </div>
+                    <div class="click">
+                        <a class="visit-shop" href="#">Visit Shop</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 text-center shop-space">
+                    <img alt="wine bottle" src="img/wine7.jpg" class="bottle" />
+                    <hr>
+                    <div class="shop-text">
+                        <h4>Foundry Cabernet</h4>
+                        <h5>&ldquo;Generous sweet blackcurrant and mulberry character with soft, velvety tannins&rdquo;</h5>
+                    </div>
+                    <div class="click">
+                        <a class="visit-shop" href="#">Visit Shop</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- //// end row //// -->
     <!-- ////////////////////////// -->
+    </section>
+    <section id="awards" class="parallax-3">
+        <div class="row">
+            <div class="award-title">
+                <div class="col-md-12 text-center">
+                    <h3>Awards & Recognition</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid award-box">
+                <div class="col-md-3 col-sm-12 text-center">
+                    <div class="award">
+                        <img alt="Pic" class="seal" src="img/wine9.png" />
+                        <p class="astyle">
+                            Best Mid-Tier Value Wine Barossa Shiraz, 2009
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center">
+                    <div class="award">
+                        <img alt="Pic" class="seal" src="img/wine10.png" />
+                        <p class="astyle">
+                            Winemaker of the Year
+                            <br> Foundry Vineyard, 20014
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 text-center">
+                    <div class="award">
+                        <img alt="Pic" class="seal" src="img/wine11.png" />
+                        <p class="astyle">
+                            Best Overall Value
+                            <br> Barossa Cabernet, 2010
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of row-->
+    <section id="contact">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div class="pouring"></div>
+            </div>
+            <div class="col-md-6 col-xs-12 contact-text">
+                <div class="con-box">
+                    <h4>Join us for tastings at the Cellar Door</h4>
+                    <h5>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </h5>
+                    <hr>
+                    <p>
+                        1240 Kilgour Road
+                        <br> Rowland Flat
+                        <br> South Australia 5352
+                    </p>
+                    <ul>
+                        <li>P: (05) 3928 9283</li>
+                        <li>E: enquiries@foundry.net</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="end">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>Sign up to our monthly newsletter</h3>
+                    <p>
+                        Get special offers and news on newest cellar releases.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- //// scripts //// -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
