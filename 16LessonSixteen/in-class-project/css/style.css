@@ -1,0 +1,70 @@
+.top-pad {
+    padding-top: 5%;
+}
+
+.mid-pad {
+    padding-top: 2.5%;
+}
+
+
+.one {
+    background-clip: content-box;
+    height: 445px;
+    width: 482px;
+    background-color: yellow;
+    margin-left: 8%;
+}
+
+.two {
+    width: 242px;
+    padding-bottom: 4.5%;
+}
+
+.three {
+    background-clip: content-box;
+    height: 210px;
+    width: 242px;
+    display: block;
+    background-color: gray;
+}
+
+.seven {
+    background-clip: content-box;
+    height: 210px;
+    width: 242px;
+    display: block;
+    background-color: gray;
+    
+}
+
+.six {
+    width: 242px;
+
+    padding-bottom: 4.5%;
+}
+.fixer {
+	margin-left: 14%;
+
+}
+
+/*.eight {
+    padding-right: 0%;
+}
+
+.nine {
+    padding-right: 0%;
+}*/
+
+.ten {
+    background-clip: content-box;
+    height: 445px;
+    width: 482px;
+    background-color: gray;
+    margin-left: -.7%;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+}
