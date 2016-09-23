@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    margin: 0;
+}
+.navbar img {
+	height: 30px;
+}
+#hero {
+    background-image: url("https://a2ua.com/dethklok/dethklok-001.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.hero-text h1 {
+	font-size: 150px;
+	font-family:'Metal Mania', cursive;
+	color: #990000;
+	margin-top: 15%;
+}
+article, aside {
+height: 100px;
+}
+
+article img, aside img {
+max-width: 100%;
+}
+article, aside {
+height: 400px;
+}
+
+article img, aside img {
+max-width: 100%;
+height: 400px;
+}
+
+aside h2, article h2 {
+margin-top: 100px;
+}
+footer {
+	height: 200px;
+	color: #990000;
+	
+
+}
+footer label {
+	font-size: 30px;
+	padding: 2% 5%;
+}
