@@ -1,70 +1,47 @@
-.top-pad {
-    padding-top: 5%;
-}
 
-.mid-pad {
-    padding-top: 2.5%;
-}
-
-
+/*/////large boxes////*/
 .one {
     background-clip: content-box;
-    height: 445px;
-    width: 482px;
+    min-height: 545px;
     background-color: yellow;
-    margin-left: 8%;
-}
-
-.two {
-    width: 242px;
-    padding-bottom: 4.5%;
-}
-
-.three {
-    background-clip: content-box;
-    height: 210px;
-    width: 242px;
-    display: block;
-    background-color: gray;
-}
-
-.seven {
-    background-clip: content-box;
-    height: 210px;
-    width: 242px;
-    display: block;
-    background-color: gray;
+    border: 10px solid white;
+    padding: 0%;
     
 }
-
-.six {
-    width: 242px;
-
-    padding-bottom: 4.5%;
-}
-.fixer {
-	margin-left: 14%;
-
-}
-
-/*.eight {
-    padding-right: 0%;
-}
-
-.nine {
-    padding-right: 0%;
-}*/
-
 .ten {
     background-clip: content-box;
-    height: 445px;
-    width: 482px;
+    min-height: 545px;
     background-color: gray;
-    margin-left: -.7%;
+     border: 10px solid white;
+   padding: 0%;
+    
 }
+/*////small imges////*/
+.img-books {
+    background-image: url("../img/work6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 278px;
+}
+.five {
+    background-image: url("../img/work4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 278px;
 
-footer {
-    height: 200px;
-    width: 100%;
-    background-color: yellow;
+}
+.six {
+    background-image: url("../img/work7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 278px;
+}
+/*/////small gray boxes////*/
+.sm-gray {
+    min-height: 278px;
+    background-color: gray;
+}
+/*////all small boxes////*/
+.sm-box {
+    border: 10px solid white;
 }
