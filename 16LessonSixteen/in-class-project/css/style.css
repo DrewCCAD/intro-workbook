@@ -1,47 +1,70 @@
-
 /*/////large boxes////*/
+
 .one {
     background-clip: content-box;
-    min-height: 545px;
+    min-height: 556px;
     background-color: yellow;
     border: 10px solid white;
     padding: 0%;
-    
+    overflow: hidden;
 }
+
 .ten {
     background-clip: content-box;
-    min-height: 545px;
+    min-height: 556px;
     background-color: gray;
-     border: 10px solid white;
-   padding: 0%;
-    
+    border: 10px solid white;
+    padding: 0%;
 }
+
+.lg-icon {
+    font-size: 60px;
+}
+
+.rotating-item {
+    /* display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
 /*////small imges////*/
+
 .img-books {
     background-image: url("../img/work6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 278px;
 }
+
 .five {
     background-image: url("../img/work4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 278px;
-
 }
+
 .six {
     background-image: url("../img/work7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 278px;
 }
+
+
 /*/////small gray boxes////*/
+
 .sm-gray {
     min-height: 278px;
     background-color: gray;
 }
+
+
 /*////all small boxes////*/
+
 .sm-box {
     border: 10px solid white;
 }
