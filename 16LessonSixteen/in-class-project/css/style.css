@@ -20,6 +20,15 @@
 .lg-icon {
     font-size: 60px;
 }
+.big-gray {
+    /* display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
 
 .rotating-item {
     /* display: none;*/
@@ -68,3 +77,8 @@
 .sm-box {
     border: 10px solid white;
 }
+
+
+/*.rotating-item {
+  transition: all 400ms;
+}*/
