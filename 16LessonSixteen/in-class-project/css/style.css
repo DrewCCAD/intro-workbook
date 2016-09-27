@@ -15,11 +15,14 @@
     background-color: gray;
     border: 10px solid white;
     padding: 0%;
+    overflow: hidden;
 }
 
 .lg-icon {
     font-size: 60px;
+    padding-bottom: 5%;
 }
+
 .big-gray {
     /* display: none;*/
     position: absolute;
@@ -39,6 +42,7 @@
     padding-top: 10%;
     padding-left: 5%;
 }
+
 
 /*////small imges////*/
 
@@ -71,6 +75,16 @@
     background-color: gray;
 }
 
+.sm-icon {
+    font-size: 30px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.three, .seven {
+    padding-left: 3%;
+}
+
 
 /*////all small boxes////*/
 
@@ -78,7 +92,46 @@
     border: 10px solid white;
 }
 
+.sm-box:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
 
-/*.rotating-item {
-  transition: all 400ms;
-}*/
+
+/*//// footer ////*/
+
+footer {
+    background-color: yellow;
+    height: 100px;
+    padding-top: 15%;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+footer a {
+    color: black;
+    font-size: 20px;
+}
+
+.ft-icon {
+    font-size: 20px;
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+
+
+/* Portrait and Landscape */
+
+@media (min-device-width: 768px) {
+    footer {
+        height: 200px;
+        padding-top: 12%;
+    }
+    footer a {
+        font-size: 30px;
+    }
+    .ft-icon {
+        font-size: 30px;
+    }
+}
