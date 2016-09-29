@@ -1,355 +1,326 @@
-          /*//// global //// */
+              /*//// global //// */
 
-      html {
-          font-size: 10px;
-      }
-      /*//// navigation bar ////*/
+          html {
+              font-size: 10px;
+          }
+          /*//// navigation bar ////*/
 
-      .navbar {
-          border: 1px solid black;
-          -webkit-transition: all 0.6s ease-out;
-          -moz-transition: all 0.6s ease-out;
-          -o-transition: all 0.6s ease-out;
-          -ms-transition: all 0.6s ease-out;
-          transition: all 0.6s ease-out;
-      }
+          .navbar {
+              border: 1px solid black;
+              -webkit-transition: all 0.6s ease-out;
+              -moz-transition: all 0.6s ease-out;
+              -o-transition: all 0.6s ease-out;
+              -ms-transition: all 0.6s ease-out;
+              transition: all 0.6s ease-out;
+          }
 
-      .navbar.scrolled {
-          background: white;
-      }
-      /*.l_border {
+          .navbar.scrolled {
+              background: white;
+          }
+          /*.l_border {
       border-left: 1px solid black;
   }*/
 
-      .nav a {
-          color: black;
-          font-weight: bolder;
-      }
+          .nav a {
+              color: black;
+              font-weight: bolder;
+          }
 
-      .navbar-brand {
-          height: 59.2px;
-          /*opacity: .90;*/
-          padding: 0%;
-      }
-      /*//// end nav ////*/
-
-      .parallax-hero {
-          /*//// hero vineyard ////   */
-          background-image: url("../img/pooleknob.jpg");
-          min-height: 800px;
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          /*background-blend-mode: multiply;
-      background-color: #aaa7a7e;*/
-      }
-
-      .logo {
-          height: 200px;
-      }
-
-      .hero-box {
-          height: 700px;
-          width: 100%;
-          margin-top: 10%;
-          margin-left: 2%;
-          color: white;
-          font-family: 'Racing Sans One', cursive;
-          opacity: .90;
-      }
-
-      .hero-box h1 {
-          font-size: 4em;
-      }
-
-      .hero-box h3 {
-          font-size: 1.8em;
-      }
-
-      .hero-box i {
-          color: white;
-          padding: 1%;
-      }
-      /*//// end hero ////*/
-
-      .bar-size {
-          height: 600px;
-      }
-
-      .about {
-          height: 400px;
-          /*width: 60%;*/
-          margin-top: 10%;
-          margin-left: 18%;
-      }
-
-      .about h5 {
-          font-style: italic;
-          font-size: 1em;
-          font-weight: 400;
-          text-transform: uppercase;
-          color: #949494;
-          padding-bottom: 5%;
-      }
-
-      .about h4 {
-          font-family: 'Georgia';
-          font-size: 1.6em;
-          line-height: 1.6em;
-          padding-bottom: 5%;
-      }
-
-      .about p {
-          text-align: left;
-          color: #6C6C6C;
-          padding-bottom: 2%;
-      }
-
-      .resume a {
-          text-align: center;
-          color: black;
-          font-size: 1.2em;
-          padding: 8px 10px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          border: 1px solid black;
-      }
-      /*//// end about ////*/
-
-      .parallax-2 {
-          /*//// picking grapes ////*/
-          background-image: url("../img/wine13.jpg");
-          min-height: 800px;
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-blend-mode: multiply;
-          background-color: #aaa7a7e;
-      }
-
-      .quote-text {
-          color: white;
-          font-family: 'Georgia';
-          margin-top: 23%;
-          margin-left: 18%;
-      }
-
-      .quote-text h3 {
-          font-size: 2.2em;
-      }
-
-      .quote-text p {
-          font-size: 1.5em;
-      }
-      /*//// end quote ////*/
-
-      .craft {
-          margin-left: 13%;
-      }
-
-      .shop-space {
-          width: 300px;
-      }
-
-      .bottle {
-          height: 550px;
-          padding-left: 10%;
-      }
-
-      .shop-text {
-          height: 50px;
-          font-family: 'Georgia';
-          font-style: italic;
-      }
-
-      .shop-text h4 {
-          font-size: 1.8em;
-          padding-bottom: 3%;
-      }
-
-      .shop-text h5 {
-          font-size: 1.1em;
-          line-height: 1.6em;
-      }
-
-      .click {
-          margin-top: 25%;
-          margin-bottom: 30%;
-          height: 50px;
-      }
-
-      .visit-shop {
-          background-color: #91A05C;
-          color: white;
-          font-size: 16px;
-          padding: 10px 30px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          margin-top: 5%;
-          margin-bottom: 8%;
-      }
-      /*//// end shop ////*/
-
-      .parallax-3 {
-          /*//// awards ////*/
-          background-image: url("../img/wine12.jpg");
-          min-height: 800px;
-          background-attachment: fixed;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-blend-mode: multiply;
-          background-color: #aaa7a7e;
-      }
-
-      .award-title h3 {
-          color: white;
-          padding-top: 8%;
-          padding-bottom: 3%;
-          font-family: 'Georgia';
-          font-style: italic;
-          font-size: 2.5em;
-      }
-
-      .astyle {
-          padding-top: 10%;
-          padding-bottom: 3%;
-          font-family: 'Georgia';
-          font-style: italic;
-          font-size: 1.2em;
-      }
-
-      .award-box {
-          color: white;
-          margin-left: 16%;
-      }
-
-      .award {
-          width: 250px;
-          /*  width: 50%;*/
-      }
-
-      .seal {
-          width: 220px;
-      }
-      /*//// end awards ////*/
-
-      .pouring {
-          background-image: url("../img/wine15.jpg");
-          background-size: cover;
-          background-position: center;
-          height: 600px;
-      }
-
-      .contact-text {
-          padding-top: 9%;
-          padding-left: 9%;
-          padding-bottom: 3%;
-          font-family: 'Georgia';
-      }
-
-      .con-box h4 {
-          font-style: italic;
-          padding-bottom: 3%;
-          font-size: 1.8em;
-      }
-
-      .con-box h5 {
-          font-style: italic;
-          width: 71%;
-          line-height: 1.9em;
-          font-size: 1.1em;
-      }
-
-      .con-box hr {
-          width: 85%;
-          border-width: 3px;
-          color: black;
-          margin-left: 0%;
-      }
-
-      .con-box p {
-          font-style: italic;
-          line-height: 2em;
-          font-size: 1.2em;
-      }
-
-      .con-box ul {
-          font-family: 'arial';
-          font-style: none;
-          list-style: none;
-          padding-left: 0%;
-      }
-      /*//// end contact ////*/
-
-      .end {
-          font-family: 'Georgia';
-          background-color: #292929;
-          color: white;
-      }
-
-      .end h3 {
-          font-style: italic;
-      }
-
-      .end p {}
-      /*//// end footer ////*/
-      /*////// media qurry ////*/
-
-      @media (max-width: 700px) {
           .navbar-brand {
-              height: auto;
+              height: 59.2px;
+              /*opacity: .90;*/
               padding: 0%;
           }
-          /*//// about section ////*/
-          .bar-size {
-            width: auto;
-          }
-          .about {
-              height: 500px;
-                width: 60%;
-              margin-top: 10%;
-              margin-left: 21%;
-          }
-          .about h5 {
-              padding-bottom: 2%;
-          }
-          .about h4 {
-              line-height: 1.6em;
-              padding-bottom: 2%;
-          }
-          .about p {
-              line-height: 1.6em;
-          }
-      }
+          /*//// end nav ////*/
 
-      @media (max-width: 768px) {
-          /*//// hero logo ////*/
-          .hero-box {
-              margin-top: 40%;
-              padding-right: 10%;
+          .parallax-hero {
+              /*//// hero ////   */
+              background-image: url("../img/pooleknob.jpg");
+              min-height: 800px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
           }
+
           .logo {
-              height: 100px;
+              height: 200px;
           }
-          .hero-box h1 {
-              font-size: 2em;
-          }
-          .hero-box h3 {
-              font-size: 1em;
-          }
-      }
 
-      @media (max-width: 768px) {
-          /*//// quote ////*/
+          .hero-box {
+              height: 700px;
+              width: 100%;
+              margin-top: 10%;
+              margin-left: 2%;
+              color: white;
+              font-family: 'Racing Sans One', cursive;
+              opacity: .90;
+          }
+
+          .hero-box h1 {
+              font-size: 4em;
+          }
+
+          .hero-box h3 {
+              font-size: 1.8em;
+          }
+
+          .hero-box i {
+              color: white;
+              padding: 1%;
+          }
+          /*//// end hero ////*/
+
+          .bar-size {
+              height: 600px;
+          }
+
+          .skills {
+              padding-left: 40%;
+          }
+
+          .about {
+              height: 400px;
+              margin-top: 10%;
+              margin-left: 18%;
+          }
+
+          .about h5 {
+              font-style: italic;
+              font-size: 1em;
+              font-weight: 400;
+              text-transform: uppercase;
+              color: #949494;
+              padding-bottom: 5%;
+          }
+
+          .about h4 {
+              font-family: 'Georgia';
+              font-size: 1.6em;
+              line-height: 1.6em;
+              padding-bottom: 5%;
+          }
+
+          .about p {
+              text-align: left;
+              color: #6C6C6C;
+              padding-bottom: 2%;
+          }
+
+          .resume a {
+              text-align: center;
+              color: black;
+              font-size: 1.2em;
+              padding: 8px 10px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              border: 1px solid black;
+          }
+          /*//// end about ////*/
+
+          .parallax-2 {
+              /*//// bauhaus ////*/
+              background-image: url("../img/background3.jpg");
+              min-height: 800px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-blend-mode: multiply;
+              background-color: #aaa7a7e;
+          }
+
           .quote-text {
               color: white;
               font-family: 'Georgia';
               margin-top: 10%;
+              margin-left: 18%;
+          }
+
+          .quote-text h3 {
+              font-size: 2.2em;
+          }
+
+          .quote-text p {
+              font-size: 1.5em;
+              text-align: left;
+          }
+          /*//// modal ////*/
+
+          .but-location {
+              margin-left: 45%;
+          }
+          /*//// end quote ////*/
+
+          .parallax-3 {
+              /*//// schools ////*/
+              background-image: url("../img/aca_class.jpg");
+              min-height: 800px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+
+          .award-title h3 {
+              color: white;
+              padding-top: 10%;
+              padding-bottom: 3%;
+              font-family: 'Racing Sans One', cursive;
+              font-style: italic;
+              font-size: 2.5em;
+          }
+
+          .astyle {
+              padding-top: 10%;
+              padding-bottom: 3%;
+              font-family: 'Racing Sans One', cursive;
+              font-style: italic;
+              font-size: 1.2em;
+          }
+
+          .award-box {
+              color: white;
+              margin-left: 16%;
+          }
+
+          .award {
+              width: 250px;
+              /*  width: 50%;*/
+          }
+
+          .seal {
+              width: 220px;
+          }
+          /*//// end schools ////*/
+
+          .pouring {
+              background-image: url("../img/me.jpg");
+              background-size: cover;
+              background-position: center;
+              height: 600px;
+          }
+
+          .contact-text {
+              padding-top: 9%;
+              padding-left: 9%;
+              padding-bottom: 3%;
+              font-family: 'Georgia';
+          }
+
+          .con-box h4 {
+              font-style: italic;
+              padding-bottom: 3%;
+              font-size: 1.8em;
+          }
+
+          .con-box h5 {
+              font-style: italic;
+              width: 71%;
+              line-height: 1.9em;
+              font-size: 1.1em;
+          }
+
+          .con-box hr {
+              width: 85%;
+              border-width: 3px;
+              color: black;
               margin-left: 0%;
           }
-          /*//// update ////*/
+
+          .con-box p {
+              font-style: italic;
+              line-height: 2em;
+              font-size: 1.2em;
+          }
+
+          .con-box ul {
+              font-family: 'arial';
+              font-style: none;
+              list-style: none;
+              padding-left: 0%;
+          }
+          /*//// end contact ////*/
+
+          .end {
+              font-family: 'Georgia';
+              background-color: #292929;
+              color: white;
+          }
+
+          .cont {
+              background-color: green;
+              color: white;
+              font-size: 1.5em;
+              padding: 10px 30px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              margin-top: .5%;
+              margin-bottom: 1%;
+          }
+
+          .end h3 {
+              font-style: italic;
+          }
+
+          .end p {
+              font-size: 1.3em;
+          }
+          /*//// end footer ////*/
+          /*////// media qurry ////*/
+
+          @media (max-width: 700px) {
+              .navbar-brand {
+                  height: auto;
+                  padding: 0%;
+              }
+              /*//// about section ////*/
+              .bar-size {
+                  width: auto;
+              }
+              .about {
+                  height: 500px;
+                  width: 60%;
+                  margin-top: 10%;
+                  margin-left: 21%;
+              }
+              .about h5 {
+                  padding-bottom: 2%;
+              }
+              .about h4 {
+                  line-height: 1.6em;
+                  padding-bottom: 2%;
+              }
+              .about p {
+                  line-height: 1.6em;
+              }
+          }
+
+          @media (max-width: 768px) {
+              /*//// hero logo ////*/
+              .hero-box {
+                  margin-top: 40%;
+                  padding-right: 10%;
+              }
+              .logo {
+                  height: 100px;
+              }
+              .hero-box h1 {
+                  font-size: 2em;
+              }
+              .hero-box h3 {
+                  font-size: 1em;
+              }
+          }
+
+          @media (max-width: 768px) {
+              /*//// quote ////*/
+              .quote-text {
+                  color: white;
+                  font-family: 'Georgia';
+                  margin-top: 10%;
+                  margin-left: 0%;
+              }
+              /*//// update ////*/

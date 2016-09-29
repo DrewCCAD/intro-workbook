@@ -18,7 +18,7 @@ if ($('.navbar').length > 0) {
 /// rev img ////
 $(function() {
     var body = $('.bar-size');
-    var backgrounds = ['url(img/1.png) no-repeat center', 'url(img/2.png) no-repeat center', 'url(img/3.png) no-repeat center', 'url(img/4.png) no-repeat center', 'url(img/5.png) no-repeat center', 'url(img/6.png) no-repeat center', 'url(img/7.png) no-repeat center', ];
+    var backgrounds = ['url(img/1.png) no-repeat center', 'url(img/2.png) no-repeat center', 'url(img/3.png) no-repeat center', 'url(img/4.png) no-repeat center', 'url(img/5.png) no-repeat center', 'url(img/6.png) no-repeat center', 'url(img/7.png) no-repeat center','url(img/8.png) no-repeat center' ];
     var current = 0;
 
 
@@ -29,8 +29,10 @@ $(function() {
             backgrounds[current = ++current % backgrounds.length]
         );
 
-        setTimeout(nextBackground, 5000);
+        setTimeout(nextBackground, 3000);
     }
-    setTimeout(nextBackground, 5000);
+    setTimeout(nextBackground, 3000);
     body.css('background', backgrounds[0]);
 });
+
+// // map ////
