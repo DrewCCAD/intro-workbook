@@ -271,17 +271,16 @@
           /*//// end footer ////*/
           /*////// media qurry ////*/
 
-          @media (max-width: 700px) {
+          @media (max-width: 800px) {
               .navbar-brand {
                   height: auto;
+                  width: auto;
                   padding: 0%;
               }
               /*//// about section ////*/
-              .bar-size {
-                  width: auto;
-              }
+
               .about {
-                  height: 500px;
+                  height: 450px;
                   width: 60%;
                   margin-top: 10%;
                   margin-left: 21%;
@@ -294,13 +293,19 @@
                   padding-bottom: 2%;
               }
               .about p {
-                  line-height: 1.6em;
+
               }
+              .resume a {
+                font-size: 1em;
+              }
+              .award-box {
+                  margin-left: 5%;
           }
 
           @media (max-width: 768px) {
               /*//// hero logo ////*/
               .hero-box {
+                height: 400px;
                   margin-top: 40%;
                   padding-right: 10%;
               }
@@ -313,14 +318,24 @@
               .hero-box h3 {
                   font-size: 1em;
               }
+              .parallax-hero {
+                min-height: 400px;
+                }
           }
 
           @media (max-width: 768px) {
               /*//// quote ////*/
-              .quote-text {
-                  color: white;
-                  font-family: 'Georgia';
-                  margin-top: 10%;
-                  margin-left: 0%;
+              .parallax-2 {
+                  min-height: 400px;
+                }
+                .quote-text {
+                    margin-top: 23%;
+                    margin-left: 5%;
+                }
+                .quote-text h3 {
+                font-size: 1em;
+                }
+                .but-location {
+                    margin-left: 35%;
+                }
               }
-              /*//// update ////*/
