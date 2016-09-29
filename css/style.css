@@ -13,7 +13,7 @@ img.navbar-brand {
   }
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .navbar img {
   margin-top: 0%;
@@ -26,27 +26,28 @@ header {
 }
 
 #light h3{
-  color: #fff;
+  color: white;
 }
 
 #light a {
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
 }
 
 #light a:active {
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  border: 2px solid white;
 }
 
 #light a:hover {
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  border: 2px solid white;
 }
 
 #light a:visited {
-  color: #fff;
-  border: 2px solid #fff;
+  color: white;
+  border: 2px solid white;
 }
 
 header h1 {
@@ -104,6 +105,7 @@ header h2 {
 
 .lesson a {
   color: white;
+  background-color: black;
   border: 2px solid white;
   text-decoration: none;
   transition: .75s;
